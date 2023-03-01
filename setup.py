@@ -15,7 +15,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
-if __name__ == "__main__":
-    setup()
+setup(
+    version="0.0.2",
+    packages=find_packages()
+)
